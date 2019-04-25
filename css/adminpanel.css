@@ -1,0 +1,76 @@
+table {
+  width: 100%;
+}
+
+.links {
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 40%;
+}
+
+.links .btn {
+  background-color: #3f3f3f;
+  color: #fff;
+  margin: 2px;
+  padding: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .links {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.adminInfo tr input {
+  width: 100%;
+  height: 3vh;
+  border: 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.adminInfo input:read-only {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.adminInfo th, td {
+  border: 1px solid black;
+}
+
+.adminInfo tr:nth-child(2n+0) {
+  background-color: #e4e4e4;
+}
+
+tr {
+  margin-bottom: 10px;
+}
+
+#dialog-form {
+  display: none;
+}
+
+.adminInfo .btn {
+  padding: 0;
+  margin: 1px 0;
+  float: left;
+  background-color: grey !important;
+  color: white;
+}
+
+.adminInfo {
+  margin: 0 auto;
+  max-width: 90%;
+  margin-bottom: 40px;
+
+}
+
+.hidden {
+  display: none;
+}
+
+
+/* EventPage */
+.adminInfo input {
+  padding: 0 2px;
+}
