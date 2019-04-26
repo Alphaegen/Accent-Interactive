@@ -14,6 +14,10 @@
     <div class="col-md-12">
       <img class="img-fluid" src="img/events/<?=$eventdetail['img'];?>" alt="">
     </div>
+    <div class="col-md-12">
+      <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="400px" id="gmap_canvas" src="https://maps.google.com/maps?q=<?=$eventdetail['city']?>&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.emojilib.com"></a></div>
+      <style>.mapouter{position:relative;text-align:right;}.gmap_canvas {overflow:hidden;background:none!important;}</style></div>
+    </div>
 
     <div id="detailform" class="col-md-12">
       <h3 class="my-3">Event Description</h3>
